@@ -1,0 +1,17 @@
+{
+  "name": "prisma-studio-docker",
+  "version": "1.0.0",
+  "description": "Prisma Studio in a Docker container",
+  "main": "index.js",
+  "scripts": {
+    "pull": "prisma db pull",
+    "generate": "prisma generate",
+    "start": "prisma studio"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "prisma": "^5.10.2"
+  }
+}
